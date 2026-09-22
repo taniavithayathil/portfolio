@@ -1,2 +1,2 @@
 export { AboutPreview } from './about';
-export { ScrollIndicator } from './hero';
+export { ExperienceSection, ExperienceTimeline, SkillsField } from './experience';
