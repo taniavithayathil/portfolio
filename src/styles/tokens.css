@@ -1,0 +1,36 @@
+:root {
+  /* Exact Base Color System */
+  --canvas: #F6F1E8;          /* Warm Ivory - Primary Canvas */
+  --canvas-subtle: #EDE4D5;   /* Soft Cream - Secondary Surface */
+  --espresso: #241817;        /* Deep Espresso - Primary Dark Text / Stroke */
+  --espresso-muted: #5C4B49;  /* Muted Espresso for secondary copy */
+  --espresso-light: #8E7C7A;  /* Soft Espresso for subtle metadata */
+  --burgundy: #5A0D1A;        /* Burgundy - Selective Accent */
+  --rose: #C99FA5;            /* Dusty Rose - Selective Accent */
+  --olive: #747849;           /* Muted Olive - Selective Accent */
+
+  /* Semantic Aliases */
+  --bg-primary: var(--canvas);
+  --bg-secondary: var(--canvas-subtle);
+  --text-primary: var(--espresso);
+  --text-muted: var(--espresso-muted);
+  --text-subtle: var(--espresso-light);
+  
+  /* Restrained Border Tokens */
+  --border-subtle: rgba(36, 24, 23, 0.12);
+  --border-medium: rgba(36, 24, 23, 0.22);
+  --border-accent: rgba(90, 13, 26, 0.3);
+
+  /* Restrained Editorial Radii */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-pill: 9999px;
+
+  /* Editorial Easing & Motion Curves */
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-editorial: cubic-bezier(0.65, 0, 0.35, 1);
+}
